@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: background color for better visibility */
+}
+
+.container {
+    text-align: center;
+    background: #9f9f9f;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 80vh;
+    width: auto;
+    max-width: 90vw;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.btn-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 150px; /* ボタンの幅を指定 */
+    height: 50px; /* ボタンの高さを指定 */
+}
+
+.btn-group button:hover {
+    background-color: #45a049;
+}
+
+.team-display {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.team {
+    width: 45%;
+    text-align: center;
+}
+
+.team img {
+    max-width: 100px;
+}
+
+.team-name {
+    font-size: 40px; /* 任意のサイズに調整 */
+}

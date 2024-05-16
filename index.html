@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC24 Team Select</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FC24 Team Select</h1>
+        <label for="min-overall">最低総合値:</label>
+        <input type="number" id="min-overall" name="min-overall" min="0" max="100" step="5" value="75">
+        <label for="threshold">しきい値:</label>
+        <input type="number" id="threshold" name="threshold" min="0" max="100" step="5" value="5">
+        <div class="btn-group">
+            <button id="start-btn">Start</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+
+
+        <div class="team-display">
+            <div class="team" id="home-team">
+                <h2>Home Team</h2>
+                <img id="home-emblem" src="/data/def.png" alt="Home Team Emblem">
+                <p id="home-name" class="team-name">Team name</p>
+                <p id="home-league">League</p>
+            </div>
+            <div class="team" id="away-team">
+                <h2>Away Team</h2>
+                <img id="away-emblem" src="/data/def.png" alt="Away Team Emblem">
+                <p id="away-name" class="team-name">Team name</p>
+                <p id="away-league">League</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
